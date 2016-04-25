@@ -1,0 +1,80 @@
+*
+{
+  font-family: 'Droid Sans', sans-serif;
+  color: #383838;
+}
+
+/*
+ *
+ *  index.erb
+ *
+ */
+
+.headline
+{
+  font-size: 2.1em;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#headline-1
+{
+  margin-top: 20px;
+}
+
+#headline-2
+{
+  font-size: 1.7em;
+  color: #636363;
+}
+
+#footnote
+{
+  font-size: 1.3em; 
+}
+
+/*
+ *
+ * Blinking cursor stuff
+ *
+ */
+
+.blinking-cursor 
+{
+  font-size: 1.2em;  
+  color: #636363;
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  -o-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite;
+}
+
+@keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #636363;
+  }
+}
+
+@-moz-keyframes blink {
+  from, to { color: transparent; }
+  50% { color: #636363; }
+}
+
+@-webkit-keyframes "blink" {
+  from, to { color: transparent; }
+  50% { color: #636363; }
+}
+
+@-ms-keyframes "blink" {
+  from, to { color: transparent; }
+  50% { color: #636363; }
+}
+
+@-o-keyframes "blink" {
+  from, to { color: transparent; }
+  50% { color: #636363; }
+}
