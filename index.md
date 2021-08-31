@@ -6,3 +6,12 @@ engineering of proprietary distributions of Cloud Foundry and Kubernetes,
 infrastructure automation, and container networking.
 
 [LinkedIn](https://www.linkedin.com/in/kevin-kelani-08b780177/) / [@kevinkelani on Twitter](https://www.twitter.com/kevinkelani)
+
+<br>
+<br>
+
+## Posts
+
+**[Deploying flannel with VXLAN backend](flannel-vxlan.md)**
+<br>
+A description of how I deployed flannel in the cloud for experimentation (non-production) purposes.
