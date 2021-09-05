@@ -71,7 +71,7 @@ containers. A "container" is an abstraction that uses Linux features called
 
 In this post, the term "cell" refers to an instance that hosts one or more containers.
 
-**This demo is safe for production use. It does not take into account important
+**This demo is not safe for production use. It does not take into account important
 security precautions.**
 
 ## Setup Google Cloud Credentials to be used by Terraform
