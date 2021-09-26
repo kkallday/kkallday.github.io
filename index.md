@@ -14,4 +14,6 @@ infrastructure automation, and container networking.
 
 **[Deploying flannel with VXLAN backend](flannel-vxlan.md)**
 <br>
+_September 5, 2021_
+<br>
 A description of how I deployed flannel in the cloud for experimentation (non-production) purposes.
